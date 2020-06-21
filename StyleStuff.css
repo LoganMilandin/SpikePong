@@ -1,0 +1,116 @@
+p {
+	color: white;
+	font: 24px Arial;
+	padding-left: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	
+}
+
+#heading {
+	display: none;
+	background-color: transparent;
+	border: none;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 30px;
+	opacity: 1;
+	
+}
+
+#pornBackground {
+	background-image: url("Images/pinkHeart.jpg");
+	background-size: 50px 50px;
+	background-color: black;
+	
+}
+.siteName {
+	color: black;
+	font: bold 30px Arial;
+	margin-right: 20px;
+	
+}
+
+.pornSite {
+	color: black;
+	font-size: 20px;
+	background-color: #e06262;
+	padding-left: 50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border: 8px ridge #71757a;
+	
+}
+#roblox {
+	margin-left: 410px;
+	margin-right: 410px;
+	background-color: #3399ff;
+	border: 8px ridge #ff4d4d;
+	padding-top: 0px;
+	batting-bottom: 0px;
+	opacity: 0;
+	
+	
+}
+#porn {
+	margin-left: 410px;
+	margin-right: 410px;
+	margin-top: 10px;
+	background-color: #151616;
+	border: 8px ridge #e59090;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	opacity: 0;
+}
+
+.pornHeader {
+	margin-left: 410px;
+	margin-right: 410px;
+	margin-top: 10px;
+	background-color: #151616;
+	border: 8px ridge #e59090;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#game {
+	margin-left: 410px;
+	margin-right: 410px;
+	margin-top: 10px;
+	background-color: #77e86f;
+	border: 8px ridge #89c9e5;
+	padding-top: 0px;
+	padding-bottom: 0px;
+    opacity: 0;
+}
+
+span {
+	font-size: 40px;	
+}
+a {
+	color: yellow;
+	
+}
+
+form {
+	margin-left: 565px;
+	margin-top: 10px;
+	
+}
+input {
+	font: 20px Arial;
+	color: white;
+	background-color: gray;
+	
+}
+h1 {
+	background-color: none;
+	font: bold 50px Arial;
+	color: white;
+	margin: 0px;
+}
+body {
+	margin: 0px;
+}

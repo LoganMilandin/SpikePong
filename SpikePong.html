@@ -260,8 +260,6 @@
 									}
 								}
 							}
-							
-						
 							break;
 						}
 						else {
@@ -385,9 +383,7 @@
 				}
 				else {
 					rightPaddle.dx = 0;
-				}
-				
-				
+				}		
 				
 				//if we hit the left paddle
 				if (hitLeftPaddle() && !leftPaddleIsSpiking()){
@@ -425,10 +421,7 @@
 					leftPaddle.dx = 0;
 				}
 				///////////////////////////////
-					
-					
 
-				
 				//test if the ball is past the edge of the screen
 				if (isPastEdgeOfScreen()) {
 					
@@ -446,13 +439,7 @@
 					ball.isSpikingFromRight = false;
 				}
 				/////////////////////////////////
-				
-				
-				
-				
-				
-				
-				//ball.dy = 0;
+
 				ball.updatePosition();
 				rightPaddle.updatePosition();
 				leftPaddle.updatePosition();
@@ -469,10 +456,6 @@
 					context.fillText(playerTwoScore, canvas.width - 77, 60);
 				}
 	
-				
-				
-				
-				
 				if (ball.y + ball.radius >= canvasHeight || ball.y - ball.radius <= 0) {
 					//magic line of code to make the ball get to the same height every time(ONLY USED IN GRAVITY PONG)
 					if (gravityIsOn) {
